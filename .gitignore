@@ -1,6 +1,13 @@
+# .env file with secret stuff
 .env
 
 # Python virtual environments
 venv/
 env/
 .venv/
+
+# logging from the bot
+discord.log
+
+# python cache
+event-assistant/__pycache__/
