@@ -126,6 +126,7 @@ async def clear(ctx, cat:str = FOOD):
 @bot.command()
 async def pickForMe(ctx, cat:str = FOOD):
     success, suggestion = getSuggestion(cat)
+    print(suggestion)
         
     if not success:
         await utils.sendInvalidType(ctx, cat)
